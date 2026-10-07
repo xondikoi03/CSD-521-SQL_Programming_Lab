@@ -1,3 +1,13 @@
+-- A travel agency manages business trips for its customers. 
+-- The agency has several Salespersons who arrange trips for customers.
+-- 1. A salesperson can arrange many trips.
+-- 2. A trip is arranged by one salesperson.
+-- 3. A customer can plan and book many trips.
+-- 4. A trip can be booked by many customers.
+-- 5. Therefore, the relationship between Customer and Trip is many-to-many.
+-- 6. Appropriate primary key, foreign key, NOT NULL, UNIQUE, CHECK and other constraints must be used.
+
+
 -- =============================================================================
 -- 1. DATABASE & 3NF SCHEMA CREATION
 -- =============================================================================
